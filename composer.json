@@ -1,0 +1,30 @@
+{
+    "name": "difra/lib-logger",
+    "description": "Log library with various backends support",
+    "type": "library",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Ed Kutuev",
+            "email": "ed@napych.com"
+        }
+    ],
+    "dist": {
+        "url": "https://github.com/difra-org/lib-logger/archive/refs/tags/8.0.0.zip",
+        "type": "zip"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:difra-org/lib-logger.git"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/Logger.php"
+        ],
+        "psr-4": {
+            "Difra\\Logger\\": "src"
+        }
+    }
+}
